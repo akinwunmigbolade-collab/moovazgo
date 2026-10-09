@@ -1,0 +1,16 @@
+{
+  "name": "moovaz-go-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Netlify Functions edition of the Moovaz Go booking site and admin dashboard",
+  "scripts": {
+    "build": "node -e \"console.log('Moovaz Go static site and Netlify Function are ready.')\""
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.3"
+  }
+}
